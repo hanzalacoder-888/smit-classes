@@ -1,25 +1,93 @@
 *{
-    margin: 0%;
-    padding: 0%;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBnEOsTwxlbe1UsOSmVpCe0io_vHs3d5JtJ_sYQd98_Q6k3YlbKK-zaRRC&s=10);
-    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.box{
-    background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/silhouettes-of-hawaiian-palms-at-a-gorgeous-sunset-free-image.jpeg?h=800&quality=80);
-     height: 1000px;
-     width: 1000px;
-     background-repeat: no-repeat;
-     position: absolute;
-     
-     
-     
+:root{
+    --primary-colour: #2a2d3e;
+    --secondry-colour:#1b1f2b;
+    --text-colour:#ffffff;
     
+}
+head{
+     display: block;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+
+body{
+    background-color: var(--primary-colour);
+    height: 100vh;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+}
+
+.container{
+    width: 500px;
+    height:550px;
+    background-color:var(--secondry-colour);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+    border-radius: 20px;
+   
+}
+h2{
+    color: var(--text-colour);
+    font-size: 35px;
+    margin-bottom: 25px;
+    
+}
+.inputbox{
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    gap: 25px;
+    margin-bottom: 20px;
+
+}
+input{
+    width: 100%;
+    background-color:var(--primary-colour);
+    padding: 15px;
+    outline: none;
+    border: 1px solid var(--text-colour);
+    border-radius: 5px;
+    color: var(--text-colour);
+    font-size: 18px;
+
+}
+textarea{
+     width: 100%;
+    background-color:var(--primary-colour);
+    padding: 15px;
+    outline: none;
+    border: 1px solid var(--text-colour);
+    border-radius: 5px;
+    color: var(--text-colour);
+    font-size: 18px;
+    resize: none;
 
 
 }
-.box1{
-    background-image: url(https://img.magnific.com/free-photo/closeup-shot-beautiful-butterfly-with-interesting-textures-orange-petaled-flower_181624-7640.jpg?semt=ais_hybrid&w=740&q=80);
-    width: 1000px;
-    height: 1000px;
-    background-repeat: no-repeat;
+button{
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: rgb(55, 155, 249);
+    outline: none;
+    border: 1px solid var(--text-colour);
+    border-radius: 5px;
+    color: var(--text-colour);
+    font-size: 18px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #2452dc;
 }
