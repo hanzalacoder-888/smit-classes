@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+
+}
+
+#cointainer {
+
+    display: flex;
+}
+
+#box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    position: relative;
+    height: 100vh;
+
+
+}
+
+#box2 {
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+
+
+
+}
+
+#image {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+}
+
+h1 {
+
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 40px;
+
+
+
+}
+
+span {
+    color: #1877f2;
+}
+
+
+#inputboxes {
+    display: flex;
+    flex-direction: column;
+   
+    
+    
+    
+
+
+
+
+
+}
+input{
+    width: 100%;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid #d0d3d6;
+}
+input:hover{
+    border-color: black;
+}
+#email{
+    margin-bottom: 5px;
+    width: 550px;
+}
+#password{
+    margin-bottom: 15px;
+    width: 550px;
+}
+
+#login {
+
+    background-color: #0064e0;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 35px;
+
+
+
+}
+#login:hover{
+    background-color: #1877f2;
+  
+
+}
+#pass{
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 40px;
+
+}
+#up{
+     background-color: white;
+     border-radius: 15px;
+     border: 1px solid #0064e0;
+     width: 100%;
+     height: 40px;
+
+}
+#pass:hover{
+    background-color:grey;
+
+}
+#up:hover{
+     background-color: grey;
+
+}
+#img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 50px;
+}
+#b{
+    width: 550px;
+    flex-direction: column;
+
+}
+#a{
+   
+ color:white;
+}
+#c{
+     color: #0064e0;
+
+    
+}
+
+
